@@ -172,7 +172,7 @@
     let url = "https://www.googleapis.com/urlshortener/v1/url?shortUrl=" + shortUrl + "&projection=ANALYTICS_CLICKS&key=AIzaSyA2LEe0I77m4pbloQXce357njClj-Akllk";
     $.get(url, function(result) {
       let number = result.analytics.allTime.longUrlClicks;
-      $('.cta-btn.conversion-banner__cta-btn').text("TẢI SÁCH NGAY (" + (1000 + number) + " LƯỢT TẢI)");
+      $('.cta-btn.conversion-banner__cta-btn').text("TẢI SÁCH NGAY (" + (1000 + parseInt(number)) + " LƯỢT TẢI)");
     });
   </script>
   <script>
