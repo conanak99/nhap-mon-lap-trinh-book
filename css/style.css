@@ -698,3 +698,6 @@ a:active {
 .fb-comments, .fb-comments * {
     width: 100% !important;
 }
+.fb-page {
+  margin-top: 1em;
+}
