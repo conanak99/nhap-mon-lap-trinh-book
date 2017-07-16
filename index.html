@@ -44,12 +44,15 @@
         <h1 class="conversion-banner__title" data-lead-id="conversion-banner-title">NHẬP MÔN LẬP TRÌNH KHÔNG CODE</h1>
         <p class="conversion-banner__by-line" data-lead-id="conversion-banner-by-line"><strong>Tác giả:</strong> Phạm Huy Hoàng - Tôi đi code dạo</p>
         <div class="conversion-banner__body" data-lead-id="conversion-banner-body">
-          <p>Bạn là sinh viên IT, đang cảm thấy mất phương hướng khi học? <br/> Bạn là học sinh, dân đi làm, sinh viên ngành khác, muốn tìm hiểu về ngành lập trình - Một ngành đang cực hot hiện nay? <br/> Bạn cảm thấy sách vở ngành IT quá khô khan, nhiều
-            code, khó đọc, khó tìm hiểu?</p>
-          <p>Đừng lo! <em>Nhập môn lập trình không code</em> là cuốn sách dành cho bạn. Cuốn sách giúp bạn <strong>tìm hiểu và định hướng</strong> về ngành IT: Cần tố chất gì, tự học như thế nào, có dễ xin việc không...</p>
-          <p>Ngôn ngữ trong sách rất <strong>gần gũi dễ hiểu, đặc biệt là không hề có code</strong>! Còn chờ gì nữa, tải về đọc ngay thôi nào!</p>
+          <p>Bạn là sinh viên ngành IT, đang cảm thấy mất phương hướng vì không biết học? <br/>
+             Bạn là học sinh, dân đi làm, sinh viên ngành khác, muốn tìm hiểu về ngành lập trình - một ngành cực hot hiện nay? <br/> Bạn cảm thấy sách vở ngành IT quá khô khan, khó đọc, khó tìm hiểu?</p>
+          <p><strong>Đừng lo!</strong> <em>Nhập môn lập trình không code</em> chính là cuốn sách dành cho bạn.<br/>
+             Cuốn sách giúp bạn <strong>tìm hiểu và định hướng</strong> về ngành IT: Cần tố chất gì, tự học như thế nào, có dễ xin việc không... <br/>
+             Ngôn ngữ trong sách rất <strong>gần gũi dễ hiểu</strong>, đặc biệt là <strong>không hề có code</strong>!
+          </p>
+          <p>Còn chờ gì nữa, tải về đọc ngay thôi nào!</p>
         </div>
-        <a href="https://goo.gl/Q5BTJS" target="_blank" class="cta-btn conversion-banner__cta-btn" data-lead-id="conversion-banner-cta-btn">TẢI NGAY (1000 LƯỢT TẢI)</a>
+        <a href="https://goo.gl/Q5BTJS" target="_blank" class="cta-btn conversion-banner__cta-btn" data-lead-id="conversion-banner-cta-btn">TẢI SÁCH NGAY (1000 LƯỢT TẢI)</a>
       </div>
     </div>
   </section>
@@ -111,6 +114,8 @@
     <div class="testimonials">
       <p class="testimonials__quote" data-lead-id="testimonials-quote">“Cuốn sách nói những điều rất bổ ích, đơn giản, dễ hiểu nhưng chưa thầy cô nào dạy cho em. Sách xứng đáng là kim chỉ nam cho các bạn học ngành IT.”</p>
       <p class="testimonials__attribution" data-lead-id="testimonials-attribution"><strong>Nguyễn Hà Tây</strong> - Sinh viên Đại Học FPT</p>
+      <br/>
+      <a href="https://goo.gl/Q5BTJS" target="_blank" class="cta-btn conversion-banner__cta-btn" data-lead-id="conversion-banner-cta-btn">TẢI SÁCH NGAY (1000 LƯỢT TẢI)</a>
     </div>
   </section>
 
@@ -170,7 +175,7 @@
     let url = "https://www.googleapis.com/urlshortener/v1/url?shortUrl=" + shortUrl + "&projection=ANALYTICS_CLICKS&key=AIzaSyA2LEe0I77m4pbloQXce357njClj-Akllk";
     $.get(url, function(result) {
       let number = result.analytics.allTime.longUrlClicks;
-      $('.cta-btn.conversion-banner__cta-btn').text("TẢI NGAY (" + number + " LƯỢT TẢI)");
+      $('.cta-btn.conversion-banner__cta-btn').text("TẢI SÁCH NGAY (" + number + " LƯỢT TẢI)");
     });
   </script>
   <script>
