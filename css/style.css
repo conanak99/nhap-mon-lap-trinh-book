@@ -80,7 +80,7 @@ h3 {
 
 a:link,
 a:visited {
-	color: #68a68e;
+	color: #922411;
 }
 a:hover,
 a:active {
@@ -703,4 +703,14 @@ a:active {
 
 .fb-like {
   padding: 1em 0 1.5em 0;
+}
+
+.mobi-kindle-download {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+.mobi-kindle-download__link  {
+  color: #922421;
 }
